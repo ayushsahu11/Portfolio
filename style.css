@@ -1,0 +1,507 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    background-color: rgb(0, 0, 61);
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    top: 0;
+    margin-bottom: 0%;
+    padding-top: 1rem;
+    position: fixed;
+    z-index: 1000;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    mix-blend-mode: difference;
+    transition: background-color 0.3s ease;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 3rem;
+    color: white;
+    background: transparent;
+}
+
+.logo span {
+    color: blue;
+    background: transparent;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background: transparent;
+}
+
+.navmenu a {
+    color: white;
+    background-color: transparent;
+}
+
+li {
+    margin-right: 2rem;
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: transparent;
+}
+
+section {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.slide {
+    color: white;
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+.slide .first {
+    background-color: blue;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.second {
+    margin-left: 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-size: 4rem;
+    color: white;
+    margin-top: 0;
+}
+
+h3 span {
+    color: blue;
+    margin-bottom: 1rem;
+}
+
+.home-text p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    color: white;
+    opacity: 0.6;
+}
+
+.button {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: blue;
+    border-style: none;
+}
+
+.button:hover {
+    transform: scale(0.99);
+}
+
+.button a {
+    color: white;
+    background-color: blue;
+}
+
+.about {
+    width: 100%;
+    padding: 10vw 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+.photoimg {
+    height: 30rem;
+    border-radius: 15px;
+    margin-left: 10rem;
+}
+
+.about-text {
+    margin-top: 0;
+    margin-left: 3rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text h2 {
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.about-text h2 span {
+    color: blue;
+}
+
+.about-text h4 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: white;
+}
+
+.about-text p {
+    color: white;
+    font-family: cursive;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.about-text button {
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    background-color: blue;
+    border-style: none;
+    width: 10rem;
+}
+
+.about-text button a {
+    color: white;
+    background-color: blue;
+}
+
+.skill {
+    width: 100%;
+}
+
+.main-text h2 {
+    text-align: center;
+    color: blue;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+}
+
+.skill-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.box {
+    height: 400px;
+    width: 300px;
+    background-color: rgb(0, 0, 61);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all .45s ease;
+}
+
+.box:hover {
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+.s-icon i {
+    color: white;
+    font-size: 32px;
+}
+
+.box h3 {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.box p {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    opacity: 0.6;
+    line-height: 1.5rem;
+}
+
+.box a {
+    color: white;
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    background-color: blue;
+    border-style: none;
+    width: 10rem;
+}
+
+.services {
+    width: 100%;
+    background-color: white;
+    gap: 50px;
+    padding: 4vw 5vw;
+}
+
+.main-project {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.project {
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.project .img {
+    width: 35vw;
+    height: 25vw;
+    border: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.project .layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(21, 93, 93, 0.1), #aaa59d);
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+}
+
+.layer h5 {
+    color: white;
+    font: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 1rem;
+    background-color: transparent;
+}
+
+.layer p {
+    color: white;
+    background-color: transparent;
+}
+
+.layer a {
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.layer a i {
+    background-color: #fff;
+}
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
+.project:hover .layer {
+    height: 100%;
+}
+
+.content {
+    background-color: aqua;
+}
+
+.content {
+    background: var(--second-bg-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.footer-content {
+    width: 100%;
+    padding-left: 120px;
+    padding-top: 50px;
+    padding-right: 120px;
+    background: var(--second-bg-color);
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.contact-text h2 {
+    color: blue;
+    font-size: 2rem;
+}
+
+.contact-text h2 span {
+    color: white;
+}
+
+.contact-text h4 {
+    color: white;
+    margin: 18px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.contact-text p {
+    color: white;
+    font-size: 1.3rem;
+    opacity: 0.8;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.list {
+    margin-bottom: 2.8rem;
+
+}
+
+.list ul {
+    list-style-type: none;
+}
+
+.list li {
+    font-style: none;
+    margin-bottom: 12px;
+}
+
+.list li a {
+    text-decoration: none;
+    opacity: 0.8;
+    display: block;
+    color: white;
+    transition: all .45s ease;
+}
+
+
+.list li a:hover {
+    color: blue;
+    transform: translate(5px);
+
+}
+
+.contact-icons i {
+    height: 45px;
+    width: 45px;
+    color: white;
+    font-size: 22px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 15px;
+    transition: all .45s ease;
+}
+
+.contact-icons i:hover {
+    color: blue;
+}
+
+.contact-us form {
+    position: relative;
+
+}
+
+.contact-us form input,
+form textarea {
+    width: 100%;
+    padding: 15px;
+    background: rgb(1, 1, 92);
+    color: white;
+    font-weight: 400;
+    border: none;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.contact-us textarea {
+    resize: none;
+    height: 200px;
+}
+
+.contact-us .submit {
+    display: inline;
+    font-size: 16px;
+    background: blue;
+    column-rule: var(--text-color);
+    width: 160px;
+    transition: all .45s;
+}
+
+.contact-us .submit:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.last {
+    width: 100%;
+    padding: 20px 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2re;
+    background: rgb(1, 1, 92);
+}
+
+.last-text p {
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(1, 1, 92);
+}
+
+.top i {
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: white;
+    background: blue;
+}
